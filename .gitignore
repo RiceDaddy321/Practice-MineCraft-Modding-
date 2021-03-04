@@ -1,0 +1,36 @@
+# eclipse
+bin
+*.launch
+.settings
+.metadata
+.classpath
+.project
+
+# idea
+out
+*.ipr
+*.iws
+*.iml
+.idea
+
+# gradle
+build
+.gradle
+gradle
+CREDITS.txt
+gradle.properties
+gradle/
+gradlew
+gradlew.bat
+README.txt
+LICENSE-Paulscode IBXM Library.txt
+LICENSE-Paulscode SoundSystem CodecIBXM.txt
+build.gradle
+LICENSE.txt
+
+# other
+eclipse
+run
+
+# Files from Forge MDK
+forge*changelog.txt
