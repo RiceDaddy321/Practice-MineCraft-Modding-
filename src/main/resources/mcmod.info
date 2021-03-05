@@ -1,10 +1,10 @@
 [
 {
-  "modid": "fastleafdecay",
-  "name": "Fast Leaf Decay",
-  "description": "Increases leaf decay rates.
+  "modid": "practice",
+  "name": "practice mod",
+  "description": "Nothing special.
 
-Check out the config to change the decay rate!",
+Check out my github!",
   "version": "v14",
   "mcversion": "1.12.1",
   "url": "http://minecraft.curseforge.com/projects/fastleafdecay",
