@@ -13,6 +13,9 @@ public class Practice {
     @EventHandler
     public void init(FMLInitializationEvent event) {
         MinecraftForge.EVENT_BUS.register(new BlockBreakEvent());
+        MinecraftForge.EVENT_BUS.register(new ExplodingMinecart());
+        MinecraftForge.EVENT_BUS.register(new ExplodingAnvils());
+        MinecraftForge.EVENT_BUS.register(new BiggerTNTExplosions());
     }
 
 }
