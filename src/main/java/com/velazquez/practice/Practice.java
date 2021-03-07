@@ -15,7 +15,8 @@ public class Practice {
         MinecraftForge.EVENT_BUS.register(new BlockBreakEvent());
         MinecraftForge.EVENT_BUS.register(new ExplodingMinecart());
         MinecraftForge.EVENT_BUS.register(new ExplodingAnvils());
-        MinecraftForge.EVENT_BUS.register(new BiggerTNTExplosions());
+        //MinecraftForge.EVENT_BUS.register(new BiggerTNTExplosions());
+        MinecraftForge.EVENT_BUS.register(new BiggerTNTExplosionsFuse());
     }
 
 }

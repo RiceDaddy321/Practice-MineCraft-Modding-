@@ -13,7 +13,7 @@ import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 public class BiggerTNTExplosionsFuse {
 
     int fuse = 4;
-    float = 32.0F;
+    float power = 32.0F;
 
     @SubscribeEvent
     public void spawnTNTItem(EntityJoinWorldEvent event) {
@@ -35,11 +35,17 @@ public class BiggerTNTExplosionsFuse {
         }
     }
 
-    /*@SubscribeEvent
+    @SubscribeEvent
     public void explosion(ItemExpireEvent event) {
-        if(event.getEntityItem().getItem() !=
+        if(event.getEntityItem().getItem().getItem() !=
                 Item.getItemFromBlock(Blocks.TNT)) {
             return;
         }
-    }*/
+
+        EntityItem explosion = event.getEntityItem();
+        event.getEntity().getEntityWorld().createExplosion(explosion,
+                explosion.posX, explosion.posY, explosion.posZ,
+                power, true);
+
+    }
 }
