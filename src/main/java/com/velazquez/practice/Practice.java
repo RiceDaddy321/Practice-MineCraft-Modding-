@@ -17,6 +17,11 @@ public class Practice {
         MinecraftForge.EVENT_BUS.register(new ExplodingAnvils());
         //MinecraftForge.EVENT_BUS.register(new BiggerTNTExplosions());
         MinecraftForge.EVENT_BUS.register(new BiggerTNTExplosionsFuse());
+        MinecraftForge.EVENT_BUS.register(new PigsDroppingDiamonds());
+        MinecraftForge.EVENT_BUS.register(new ZombieKnight());
+        MinecraftForge.EVENT_BUS.register(new CreeperReinforcements());
+
+
     }
 
 }
